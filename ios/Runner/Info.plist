@@ -45,5 +45,15 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necesitamos tu ubicacion para mostrar hoteles cercanos y trazar rutas.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Tu ubicacion se usa para continuar rutas cuando vuelvas a abrir la aplicacion.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Necesitamos la camara para tomar fotos de hoteles y analizarlas con Gemini.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesitamos acceder a tu galeria para seleccionar fotos de hoteles.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>La aplicacion puede guardar imagenes analizadas en tu galeria.</string>
 </dict>
 </plist>

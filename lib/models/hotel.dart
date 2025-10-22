@@ -40,7 +40,8 @@ class Hotel {
     return Hotel(
       id: json['id']?.toString() ?? '',
       name: (json['name'] as String?)?.trim() ?? 'Hotel sin nombre',
-      address: (json['address'] as String?)?.trim() ?? 'Direccion no disponible',
+      address:
+          (json['address'] as String?)?.trim() ?? 'Direccion no disponible',
       location: LatLng(latitude, longitude),
       priceRange: (json['price_range'] as String?)?.trim() ?? 'No especificado',
       category: (json['category'] as String?)?.trim() ?? 'Sin categoria',
